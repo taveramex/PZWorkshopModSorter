@@ -1,7 +1,7 @@
 const Navbar = (props)=>{
 
     return( 
-        <navbar>
+        <div>
             here's some options.
             <ul>
                 <li>Browse mods</li>
@@ -9,7 +9,7 @@ const Navbar = (props)=>{
                 <li>Hello World</li>
                 <li>other option</li>
             </ul>
-        </navbar>
+        </div>
     );
 
 };

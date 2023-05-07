@@ -6,8 +6,12 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <SpotLight/>
+      <div>
+        <Navbar/>
+      </div>
+      <div>
+        <SpotLight/>
+      </div>
     </>
   )
 }
