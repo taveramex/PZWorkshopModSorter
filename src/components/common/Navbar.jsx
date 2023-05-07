@@ -1,17 +1,15 @@
+import { Nav } from "react-bootstrap";
+
 const Navbar = (props)=>{
 
     return( 
-        <div>
-            here's some options.
-            <ul>
-                <li>Browse mods</li>
-                <li>Create String Mod</li>
-                <li>Hello World</li>
-                <li>other option</li>
-            </ul>
-        </div>
+        <Nav defaultActiveKey="/home" className="flex-column">
+            <Nav.Link href="/home">Browse mods</Nav.Link>
+            <Nav.Link eventKey="link-1">Create String Mod</Nav.Link>
+            <Nav.Link eventKey="link-2">Blablablabla</Nav.Link>
+            <Nav.Link eventKey="link-2">Other option</Nav.Link>
+        </Nav>
     );
-
 };
 
 export default Navbar;
